@@ -401,14 +401,22 @@
     padding-right: 10px;
     color:#ff004f
   }
-
-  #sidemenubottom{
-  
+  #contactmefooter{
+    width: 100%;
   }
   #contactmefooter .container{
     margin-bottom: 50px;
     padding: 50px;
   }
+  #contactmefooter .containerbottom a{
+    margin-bottom: 100px;
+    margin-left: 730px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 100px;
+    cursor: pointer;
+  }  
   nav .fa-solid{
     display: none;
   }
@@ -503,6 +511,18 @@
 #contactmefooter{
   padding: 30px;
 }
+.containerbottom{
+  width: 100%;
+}
+#contactmefooter .containerbottom a{
+  margin-bottom: 20px;
+  margin-left: 230px;
+  margin-right: 30px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 20px;
+}  
+
 
   
 
