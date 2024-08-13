@@ -440,9 +440,10 @@ nav .fa-solid{
 .developer{
   margin-top: 80px;
   margin-right: 20px;
+  width: 100%;
 }
 .web{
-  padding: 20px 70px;
+  padding: 15px 90px;
   font-size: 25px;
 }
 .myname{
@@ -469,7 +470,7 @@ nav ul{
   position: fixed;
   top: 0;
   right:-400px;
-  width: 400px;
+  width: 250px;
   height: 350px;
   padding-top: 50px;
   z-index: 2;
