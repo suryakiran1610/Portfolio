@@ -10,6 +10,7 @@ html{
 body {
   background: #111212;
   color: white;
+  overflow-x: hidden;
 }
 
 #header {
@@ -20,6 +21,7 @@ body {
 .container {
   padding: 20px 10%;
   position: relative; /* Add this to make the container a positioning context for absolute positioning */
+  
 }
 
 nav {
@@ -432,22 +434,26 @@ nav .fa-solid{
   width: 50%;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-left: 25px;
 }
 .developer{
-  margin-top: 40px;
+  margin-top: 80px;
   margin-right: 20px;
 }
 .web{
-  padding: 5px 30px;
+  padding: 20px 50px;
+  font-size: 30px;
 }
 .myname{
-  margin-top: 40px;
+  margin-top: 100px;
   display:block;
 }
 .myname h2{
-  font-size: 35px;
+  font-size: 45px;
+}
+.myname span{
+    font-size: 50px;
 }
 span.multiText{
   margin-left: 20px;
@@ -481,24 +487,40 @@ nav ul .fa-solid{
 }
 
 div .row{
-  margin-top: 100px;
-  width: 550px;
-  margin-left: 55px;
+  margin-top: 200px;
+  width:100%;
+  margin-left: 200px;
 }
 div .about-col1{
-  margin-left: 50px;
+  width: 100%;
+}
+.about-col1 img{
+  width: 500px;
+  height: 500px;
 }
 div .sub{
   font-size: 40px;
   margin-left: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 div p{
-  font-size: 10px;
+  font-size: 15px;
   justify-content: left;
 }
+.tab-title{
+  margin-top: 30px;
+}
+.about-col2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #about{
-margin: 0;
+margin-top: 150px;
 padding:0;
+width:min-content;
 }
 #about .container{
 margin: 0;
@@ -506,6 +528,11 @@ padding: 0;
 }
 .project-head{
 margin-top: 150px;
+width: 100%;
+margin-bottom: 30px;
+}
+.project-head h2{
+  margin-left: 350px;
 }
 
 #contactmefooter{
@@ -524,15 +551,17 @@ font-size: 20px;
 }  
 
 
-
-
-
 #header {
   position: relative;
+  width: 100vh;
 }
 
 .container {
   padding: 20px 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 
@@ -541,30 +570,45 @@ font-size: 20px;
   flex-direction: column;
 }
 
-.box1,
 .box2 {
   width: 100%;
+  margin-top: 100px;
 }
+.box1{
+  height: 100vw;
+  width:100%
+}
+
 
 .circle {
   margin: 20px auto;
+  width: 500px;
+  height: 500px;
 }
-
+#project{
+  margin-top: 600px;
+}
 .project-mainbox1,
 .project-mainbox2 {
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin-left: 250px;
 }
 
 .mainbox2 {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projectbox1 img {
   width: 100%;
 }
-
+.projectbox1{
+  width: 500px;
+  height: 500px;
+}
 .contact-left,
 .socialmedia-links {
   margin: 20px 0;
