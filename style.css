@@ -588,7 +588,7 @@ font-size: 20px;
   height: 500px;
 }
 #project{
-  margin-top: 600px;
+  margin-top: 750px;
 }
 .project-mainbox1,
 .project-mainbox2 {
@@ -606,10 +606,11 @@ font-size: 20px;
 
 .projectbox1 img {
   width: 100%;
+  background-size: cover;
 }
 .projectbox1{
   width: 700px;
-  height: 700px;
+  height: 480px;
 }
 .contact-left,
 .socialmedia-links {
