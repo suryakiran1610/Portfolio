@@ -368,7 +368,9 @@ span{
 .project-button i{
   color: white;
 }
-
+.experience-item{
+  margin-bottom: 20px;
+}
 .contactmefooter{
   margin-bottom: 40px;
 }
@@ -386,6 +388,19 @@ span{
   font-size: 25px;
   padding-top: 20px;
 
+}
+#downloadResumeBtn{
+  background-color: #ff004f;
+  padding: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+ 
+}
+#downloadResumeBtncontainer{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 100px;
 }
 .socialmedia-links{
   width: 100%;
@@ -421,6 +436,9 @@ span{
 }  
 nav .fa-solid{
   display: none;
+}
+#project{
+  margin-top: 200px;
 }
 
 
