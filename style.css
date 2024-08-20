@@ -567,8 +567,22 @@ color: #ff004f;
 text-decoration: none;
 font-size: 20px;
 } 
-
-
+#contactmefooter .containerbottom i{
+display: none;
+} 
+#downloadResumeBtn{
+  background-color: #ff004f;
+  padding: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+ 
+}
+#downloadResumeBtncontainer{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
 
 
 #header {
